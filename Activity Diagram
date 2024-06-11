@@ -1,0 +1,37 @@
+1. Account Creation (Visitor)
+Start -> Enter Details -> Submit Form -> Validate Details [Valid] -> Create Account -> End
+                                |
+                              [Invalid]
+                                |
+                              Error Message -> End
+
+2. Request Advertising (Sponsor)
+Start -> Enter Request Details -> Submit Request -> Validate Details [Valid] -> Save Request -> End
+                                      |
+                                    [Invalid]
+                                      |
+                                    Error Message -> End
+
+3. Event Management (Office Member)
+Start -> Select Action [Create/Update/Delete] -> Enter/Modify Details -> Submit -> Validate Details [Valid] -> Save Changes -> End
+                                                               |
+                                                             [Invalid]
+                                                               |
+                                                             Error Message -> End
+
+4. Authentication (Member and Office Member)
+Start -> Enter Credentials -> Submit -> Validate Credentials [Valid] -> Grant Access -> End
+                                   |
+                                 [Invalid]
+                                   |
+                                 Error Message -> End
+
+5. Profile Management (Member and Office Member)
+Start -> Open Profile -> Edit Details -> Submit -> Validate Details [Valid] -> Save Changes -> End
+                                  |
+                                [Invalid]
+                                  |
+                                Error Message -> End
+
+6. View News Feed and Event List (Member and Office Member)
+Start -> Login -> View News Feed/Event List -> Select News/Event -> View Details -> End
