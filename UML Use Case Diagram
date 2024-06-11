@@ -1,12 +1,37 @@
-[Visitor] <-- (Create Account)
-[Sponsor] <-- (Request Advertising)
-[Office Member] <-- (Manage Members)
-[Office Member] <-- (Manage Roles)
-[Office Member] <-- (Manage Advertising Requests)
-[Office Member] <-- (Manage Events)
-[Office Member] <-- (Manage Articles and News)
-[Member, Office Member] <-- (Authenticate)
-[Member, Office Member] <-- (Manage Profile)
-[Member, Office Member] <-- (View News Feed)
-[Member, Office Member] <-- (View Event List)
-[Member] <-- (Register for Events)
+The Use Case Diagram will illustrate the interactions between actors and the application functionalities.
+
+Visitor
+  Create Account
+
+Sponsor
+  Request Advertising
+
+Office Member
+  Manage Members
+  Manage Roles
+  Manage Advertising Requests
+  Manage Events
+  Manage Articles and News
+
+Member and Office Member
+  Authenticate
+  Manage Profile
+  View News Feed
+  View Event List
+  Register for Events
+
+
+UML Use Case Diagram
+
+  [Visitor] <-- (Create Account)
+  [Sponsor] <-- (Request Advertising)
+  [Office Member] <-- (Manage Members)
+  [Office Member] <-- (Manage Roles)
+  [Office Member] <-- (Manage Advertising Requests)
+  [Office Member] <-- (Manage Events)
+  [Office Member] <-- (Manage Articles and News)
+  [Member, Office Member] <-- (Authenticate)
+  [Member, Office Member] <-- (Manage Profile)
+  [Member, Office Member] <-- (View News Feed)
+  [Member, Office Member] <-- (View Event List)
+  [Member] <-- (Register for Events)
