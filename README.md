@@ -57,7 +57,7 @@ The primary goal is to design and implement an association management applicatio
 - **Documentation**: Provide comprehensive documentation to aid in future development and maintenance.
 
 ## Design Approach
-To design an association management application effectively, follow these steps:
+To design an association management application effectively, we follow these steps:
 
 ### 1. Requirements Gathering
 - **Stakeholder Meetings**: Discuss with association members, office members, and potential users to understand their needs.
