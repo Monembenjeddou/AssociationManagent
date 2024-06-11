@@ -1,0 +1,116 @@
+Use Case Diagram
++------------------------------------+
+|         Association Management     |
+|             Application            |
++------------------------------------+
+| +--------------------------------+ |
+| |  Visitor                       | |
+| |  - Create Account              | |
+| +--------------------------------+ |
+| +--------------------------------+ |
+| |  Sponsor                       | |
+| |  - Request Advertising         | |
+| +--------------------------------+ |
+| +--------------------------------+ |
+| |  Office Member                 | |
+| |  - Manage Members              | |
+| |  - Manage Roles                | |
+| |  - Manage Advertising Requests | |
+| |  - Manage Events               | |
+| |  - Manage Articles and News    | |
+| +--------------------------------+ |
+| +--------------------------------+ |
+| |  Member, Office Member         | |
+| |  - Authenticate                | |
+| |  - Manage Profile              | |
+| |  - View News Feed              | |
+| |  - View Event List             | |
+| +--------------------------------+ |
+| |  Member                        | |
+| |  - Register for Events         | |
+| +--------------------------------+ |
++------------------------------------+
+
+Activity Diagram
+Account Creation (Visitor)
++----------------------------------+
+| Start                           |
+| Enter Details                   |
+| Submit Form                     |
+| Validate Details [Valid]        |
+| Create Account                  |
+| End                             |
+|----------------------------------|
+| [Invalid]                       |
+| Error Message                   |
+| End                             |
++----------------------------------+
+
+Request Advertising (Sponsor)
++----------------------------------+
+| Start                           |
+| Enter Request Details           |
+| Submit Request                  |
+| Validate Details [Valid]        |
+| Save Request                    |
+| End                             |
+|----------------------------------|
+| [Invalid]                       |
+| Error Message                   |
+| End                             |
++----------------------------------+
+
+Event Management (Office Member)
++----------------------------------+
+| Start                           |
+| Select Action [Create/Update/   |
+|  Delete]                        |
+| Enter/Modify Details            |
+| Submit                          |
+| Validate Details [Valid]        |
+| Save Changes                    |
+| End                             |
+|----------------------------------|
+| [Invalid]                       |
+| Error Message                   |
+| End                             |
++----------------------------------+
+
+Authentication (Member and Office Member)
++----------------------------------+
+| Start                           |
+| Enter Credentials               |
+| Submit                          |
+| Validate Credentials [Valid]    |
+| Grant Access                    |
+| End                             |
+|----------------------------------|
+| [Invalid]                       |
+| Error Message                   |
+| End                             |
++----------------------------------+
+
+Profile Management (Member and Office Member)
++----------------------------------+
+| Start                           |
+| Open Profile                    |
+| Edit Details                    |
+| Submit                          |
+| Validate Details [Valid]        |
+| Save Changes                    |
+| End                             |
+|----------------------------------|
+| [Invalid]                       |
+| Error Message                   |
+| End                             |
++----------------------------------+
+
+View News Feed and Event List (Member and Office Member)
++----------------------------------+
+| Start                           |
+| Login                           |
+| View News Feed/Event List       |
+| Select News/Event               |
+| View Details                    |
+| End                             |
++----------------------------------+
